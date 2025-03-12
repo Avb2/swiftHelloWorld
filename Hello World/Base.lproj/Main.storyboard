@@ -27,6 +27,9 @@
                                 <rect key="frame" x="148" y="173" width="98" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Tap Here!"/>
+                                <connections>
+                                    <action selector="showOutput:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gu4-L9-P7y"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eiA-1j-Ppd">
                                 <rect key="frame" x="96.666666666666686" y="124" width="200" height="34"/>
